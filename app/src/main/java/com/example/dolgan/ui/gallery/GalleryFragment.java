@@ -14,6 +14,7 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.dolgan.R;
 import com.example.dolgan.databinding.FragmentGalleryBinding;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class GalleryFragment extends Fragment {
 
