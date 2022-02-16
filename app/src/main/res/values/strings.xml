@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Dolgan</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Главная</string>
+    <string name="menu_gallery">Национальная одежда</string>
+    <string name="menu_slideshow">Традиционный промысел</string>
+    <string name="menu_meals">Национальные блюда</string>
+    <string name="menu_folklore">Фольклор</string>
+    <string name="menu_services">Услуги</string>
+    <string name="menu_ourTeam">Наша команда</string>
+    <string name="menu_reviews">Отзывы</string>
+    <string name="menu_contacts">Контакты</string>
+</resources>
