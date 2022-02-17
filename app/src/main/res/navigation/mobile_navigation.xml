@@ -27,4 +27,29 @@
         android:name="com.example.dolgan.ui.meals.MealsFragment"
         android:label="@string/menu_meals"
         tools:layout="@layout/fragment_meals" />
+    <fragment
+        android:id="@+id/nav_folklore"
+        android:name="com.example.dolgan.ui.folklore.FolkloreFragment"
+        android:label="@string/menu_folklore"
+        tools:layout="@layout/fragment_folklore" />
+    <fragment
+        android:id="@+id/nav_services"
+        android:name="com.example.dolgan.ui.services.ServicesFragment"
+        android:label="@string/menu_services"
+        tools:layout="@layout/fragment_services" />
+    <fragment
+        android:id="@+id/nav_ourTeam"
+        android:name="com.example.dolgan.ui.ourteam.TeamFragment"
+        android:label="@string/menu_ourTeam"
+        tools:layout="@layout/fragment_team" />
+    <fragment
+        android:id="@+id/nav_reviews"
+        android:name="com.example.dolgan.ui.reviews.ReviewsFragment"
+        android:label="@string/menu_reviews"
+        tools:layout="@layout/fragment_reviews" />
+    <fragment
+        android:id="@+id/nav_contacts"
+        android:name="com.example.dolgan.ui.contacts.ContactsFragment"
+        android:label="@string/menu_contacts"
+        tools:layout="@layout/fragment_contacts" />
 </navigation>

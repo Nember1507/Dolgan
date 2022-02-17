@@ -17,19 +17,19 @@ import com.example.dolgan.databinding.FragmentMealsBinding;
 
 public class MealsFragment extends Fragment {
 
-    private MealsViewModel homeViewModel;
+    private MealsViewModel mealsViewModel;
     private FragmentMealsBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        homeViewModel =
+        mealsViewModel =
                 new ViewModelProvider(this).get(MealsViewModel.class);
 
         binding = FragmentMealsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textMeals;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
+        mealsViewModel.getText().observe(getViewLifecycleOwner(), new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);
